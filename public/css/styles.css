@@ -1,0 +1,27 @@
+.nav-link {
+    font-weight: bold;
+    padding: 1.5em 1em;
+}
+.navbar-dark .nav-link {
+    color: rgba(255,255,255,.7) !important;
+}
+.btn-primary{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background: #06beb6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color: transparent;
+}
+.main{
+    background-image: url('../images/bwnew.jpg');
+    background-size: cover;
+}
+.dark{
+    min-height: 100vh;
+    color: white;
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3FAD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3FAD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
